@@ -216,6 +216,7 @@ header.scrolled {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 @keyframes morph {
@@ -295,6 +296,7 @@ header.scrolled {
     border-radius: 10px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease;
+    
 }
 
 .about-image:hover img {
@@ -306,7 +308,7 @@ header.scrolled {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 100%;
+    width: 67%;
     height: 100%;
     border: 2px solid var(--highlight);
     border-radius: 10px;
